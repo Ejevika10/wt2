@@ -102,7 +102,8 @@ main{
 .artists-name{
     height: 150px;
     /*background-color: blueviolet;*/
-    background-image: url(../img/try1.jpg);;
+    background-image: url(../img/try1.jpg);
+    background-size:cover;
     display: flex;
 }
 .artists-name>h2{
@@ -244,6 +245,7 @@ main{
     margin:auto;
     /*background-color: #c3b4ff;*/
     background-image: url(../img/form.jpg);
+    background-size:cover;
     background-position: right;
     display: flex;
     border-radius:10px;
