@@ -100,8 +100,9 @@ main{
     margin-bottom: 30px;
 }
 .artists-name{
-    height: 100px;
-    background-color: blueviolet;
+    height: 150px;
+    /*background-color: blueviolet;*/
+    background-image: url(../img/try1.jpg);;
     display: flex;
 }
 .artists-name>h2{
@@ -109,7 +110,7 @@ main{
     color: white;
     font-family: 'Resphekt';
     font-weight: lighter;
-    font-size: 70px;
+    font-size: 90px;
 }
 .artist>ul{
     float: left;
@@ -162,6 +163,27 @@ main{
     font-weight: 200;
     line-height: 1.3;
 }
+.artist_button{
+    color: #333333;
+
+    background-color: #c3b4ff;
+    width: 35%;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius:15px;
+    border:2px solid #c3b4ff;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-family:'Comfortaa';
+    font-weight: bold;
+    font-size: 18px;
+}
+.artist_button:hover {
+    background-color: blueviolet;
+    border:2px solid blueviolet;
+    color: white;
+    font-weight: lighter;
+}
 .content-info{
     color: #333333;
     font-size: 20px;
@@ -189,8 +211,6 @@ main{
 .textimg>a>img{
     border-radius: 10px;
 }
-
-
 .other-wrapper{
     display: flex;
     height: 400px;

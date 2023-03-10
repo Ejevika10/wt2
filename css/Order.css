@@ -90,8 +90,9 @@ main{
     left:0;
 }
 .order-name{
-    height: 100px;
-    background-color: blueviolet;
+    height: 150px;
+    /*background-color: blueviolet;*/
+    background-image: url(../img/try1.jpg);;
     display: flex;
 }
 .order-name>h2{
@@ -99,7 +100,7 @@ main{
     color: white;
     font-family: 'Resphekt';
     font-weight: lighter;
-    font-size: 70px;
+    font-size: 90px;
 }
 
 .order_form{
@@ -108,8 +109,8 @@ main{
     margin:auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #c3b4ff;
-
+    /*background-color: #c3b4ff;*/
+    background-image: url(../img/form1.jpg);;
     background-position: right;
     display: flex;
     flex-direction: column;
@@ -203,13 +204,13 @@ main{
     width: 35%;
     text-align: center;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px 10px;
     border-radius:10px;
     border:2px solid #c3b4ff;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     font-family:'Comfortaa';
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }
 .catalog_button:hover {
     background-color: blueviolet;

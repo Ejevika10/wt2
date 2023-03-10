@@ -88,8 +88,9 @@ main{
     left:0;
 }
 .paintings-name{
-    height: 100px;
-    background-color: blueviolet;
+    height: 150px;
+    /*background-color: blueviolet;*/
+    background-image: url(../img/try1.jpg);;
     display: flex;
 }
 .paintings-name>h2{
@@ -97,7 +98,7 @@ main{
     color: white;
     font-family: 'Resphekt';
     font-weight: lighter;
-    font-size: 70px;
+    font-size: 90px;
 }
 .artist>h2{
     color: #333333;
