@@ -166,18 +166,16 @@ main{
 }
 .artist_button{
     color: #333333;
-
-    background-color: #c3b4ff;
     width: 35%;
     text-align: center;
     text-decoration: none;
-    padding: 15px 10px;
-    border-radius:15px;
-    border:2px solid #c3b4ff;
+    padding: 10px;
+    border-radius:10px;
+    border:2px solid #333;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     font-family:'Comfortaa';
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 .artist_button:hover {
     background-color: blueviolet;
