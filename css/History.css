@@ -21,47 +21,49 @@ header {
     z-index: 100;
     width: 90%;
     float: right;
-    display: flex;
-    justify-content: left;
-}
-header div nav{
-    width: 15%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 header div{
     width: 95%;
     margin: auto;
-    justify-content: space-between;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
-header a{
+header div h1{
     color: blueviolet;
     font-size: 70px;
-    font-family: 'Avenir';
+    font-family: 'Avenir', serif;
     font-weight: 500;
+}
+header div nav{
+    width: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header div nav a{
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 aside {
     background-color: #c3b4ff;
     position: fixed;
+    float: left;
+    height: 100%;
+    width: 10%;
     top: 0;
     left: 0;
-    width: 10%;
     margin-right: 0;
-    height: 100%;
-    float: left;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .nav{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    justify-content: space-between;
 }
 .nav > li{
     height: 100px;
@@ -81,71 +83,62 @@ aside {
 .nav > li:hover {
     border-right: 5px solid blueviolet;
 }
+
 main{
     float:right;
     width: 90%;
     right: 0;
     left:0;
 }
-.history-name{
+.pagename{
     height: 150px;
-    /*background-color: blueviolet;*/
     background-image: url(../img/try1.jpg);
     background-size:cover;
     display: flex;
 }
-.history-name>h2{
+.pagename>h2{
     margin: auto;
     color: white;
-    font-family: 'Resphekt';
+    font-family: 'Resphekt', serif;
     font-weight: lighter;
     font-size: 90px;
 }
 .content-wrapper{
-    display: flex;
+    width: 70%;
     margin: auto;
     margin-top: 50px;
-    text-align: justify;
-    width: 70%;
+    display: flex;
     flex-direction: column;
+    text-align: justify;
 }
+
 .content-info{
     color: #333333;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Comfortaa', serif;
     font-weight: 200;
-    line-height: 1.5;
+    line-height: 2;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.textimg{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.textimg>p{
+    margin-top: 20px;
+    color: blueviolet;
+    font-size: 16px;
+    font-family: 'Comfortaa', serif;
+}
+.textimg img{
+    border-radius: 10px;
+}
 
 .other-wrapper{
-    display: flex;
     height: 400px;
+    display: flex;
     flex-direction: column;
     margin-top: 100px;
     margin-bottom: 80px;
@@ -159,46 +152,26 @@ main{
     margin-left: 65px;
 
 }
-.other{
+.other-wrapper>div{
     margin: auto;
     margin-top: 0;
     width: 90%;
     display: flex;
-    justify-self: auto;
     justify-content: space-between;
 }
-.other>div>p{
+.other-wrapper>div>div>p{
     width: 200px;
 }
-.textimg{
-    margin: auto; /* Отступы вокруг */
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background: #fdfdfd; /* Цвет фона */
-    text-align: center;
-}
-.textimg>p{
-    margin-top: 20px;
-    color: blueviolet;
-    font-size: 16px;
-    font-family:'Comfortaa';
-}
-.textimg>img{
-    border-radius: 10px;
-}
-.textimg>a>img{
-    border-radius: 10px;
-}
+
 .form{
     width: 70%;
     height: 225px;
-    margin:auto;
-    /*background-color: #c3b4ff;*/
     background-image: url(../img/form.jpg);
     background-size:cover;
-    background-position: right;
+    background-position: center;
     display: flex;
-    border-radius:10px;
+    border-radius: 10px;
+    margin:auto;
     margin-bottom: -100px;
     position: relative;
     z-index: 100;
@@ -212,7 +185,7 @@ main{
     flex-direction: column;
     justify-content: space-between;
 }
-.form>div>h2{
+.form>div h2{
     padding:10px;
     color: #333333;
     font-size: 30px;
@@ -233,7 +206,7 @@ main{
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     margin:10px 10px;
     text-decoration-color: blueviolet;
-    font-family:'Comfortaa';
+    font-family: 'Comfortaa', serif;
 }
 .button{
     background-color: inherit;
@@ -242,7 +215,7 @@ main{
     border:2px solid #333;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
     margin:10px 10px;
-    font-family:'Comfortaa';
+    font-family: 'Comfortaa', serif;
     font-weight: bold;
 }
 .button:hover {
@@ -251,23 +224,23 @@ main{
     color: white;
     font-weight: lighter;
 }
+
+
+
 footer {
     height: 420px;
-    background-color: blueviolet;
-    z-index: 100;
     width: 90%;
+    background-color: blueviolet;
     float: right;
     display: flex;
-    justify-content: left;
-}
 
-footer div{
+}
+footer>div{
     width: 70%;
     margin: auto;
     display: flex;
     flex-direction: column;
 }
-
 .helpful{
     height: 100px;
 }
@@ -281,11 +254,12 @@ footer div{
 .top> a{
     color: #ffffff;
     font-size: 40px;
-    font-family: 'Avenir';
+    font-family: 'Avenir', serif
+;
     font-weight: 500;
 }
 .top> nav{
-    width: 15%;
+    width: 12%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -294,7 +268,7 @@ footer div{
     margin-top: 40px;
     color: #ffffff;
     width: 50%;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', serif;
     font-size: 16px;
 }
 .bottom{
@@ -304,6 +278,9 @@ footer div{
     margin-top:60px;
     padding-top: 20px;
     color: #d4afff;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', serif;
     font-size: 14px;
 }
+
+
+
